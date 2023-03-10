@@ -1,4 +1,4 @@
-const videoCard =[{
+const data =[{
 
     img: 'https://i.ytimg.com/an_webp/7NK_JOkuSVY/mqdefault_6s.webp?du=3000&sqp=CK75v58G&rs=AOn4CLBBR-IoWAJ4th08_bctV0taTA_H1w',
     name: "Numb [Official Music Video] - Linkin Park",
