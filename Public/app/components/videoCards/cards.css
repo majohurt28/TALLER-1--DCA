@@ -1,0 +1,38 @@
+section{
+
+}
+
+img{
+    border-radius: 10px;
+    display: inline-block;
+    min-height: 1px;
+    min-width: 1px;
+
+}
+
+
+
+/*img{
+    border-radius: 10x;
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}*/
+
+
+
+p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; 
+    font-size: 14px;}
+   
