@@ -1,1 +1,1 @@
-export{default as cardContainer} from './videoCards/cards.js'
+export{default as Card} from './videoCards/cards.js'
