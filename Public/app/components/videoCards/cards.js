@@ -1,6 +1,7 @@
+
 class Card extends HTMLElement{
     static get  observedAttributes(){
-        return["video","name","profile","views","date"]
+        return["thumbnail","name","profile","views","date"]
 
     }
 
@@ -14,25 +15,30 @@ class Card extends HTMLElement{
 
     }
 
-    attributeChangedCallback(proName,oldValue,newValue){
-        this[proName] = newValue;
+    attributeChangedCallback(propName,oldValue,newValue){
+        this[propName] = newValue;
         this.render();
     }
 
     render(){
         this.shadowRoot.innerHTML =`
         <link rel="stylesheet"  href="./app/components/videoCards/cards.css">
-        <section>
         
-                <img>${this.video}</img>
-                <p1><strong>${this.name}</strong></p1>
-                <h2>${this.profile}</h2>
-                <h2>${this.views}vistas-hace${this.date}</h2>
-        </spam>
+            <section class="videoCard">
+                    <spam class="card">
+            
+                    <img class="video" src="${this.thumbnail}"</img>
+                    <p1><strong>${this.name}</strong></p1>
+                    <h2>${this.profile}</h2>
+                    <h2>${this.views}vistas-hace${this.date}</h2>
+                    </spam>
+        
 
-        </section>`
+            </section>
+    
+        `;
     }
 }
 
-customElements.define('custom-card', Card);
+customElements.define("custom-card", Card);
 export default Card;
