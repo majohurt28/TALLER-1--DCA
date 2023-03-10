@@ -1,6 +1,6 @@
 class Card extends HTMLElement{
     static get  observedAttributes(){
-        return["video","name","profile","description"]
+        return["video","name","profile","views","date"]
 
     }
 
@@ -14,13 +14,19 @@ class Card extends HTMLElement{
 
     }
 
+    attributeChangedCallback(proName,oldValue,newValue){
+        this[proName] = newValue;
+        this.render();
+    }
+
     render(){
         this.shadowRoot.innerHTML =`
+        <link rel="stylesheet"  href="./app/components/videoCards/cards.css">
         <section>
         <img>${this.video}</img>
         <p1><strong>${this.name}</strong></p1>
         <h2>${this.profile}</h2>
-        <h2>${this.description}</h2>
+        <h2>${this.views}vistas-hace${this.date}</h2>
 
         </section>`
     }
