@@ -1,4 +1,12 @@
-.search{
+.Search{
     position:absolute;
-    padding-left: 50px;
+    margin-left: 35%;
+}
+
+.Search input{
+    width: 250px;
+    height: 20px;
+    font-size: 15px;
+    color: black;
+    border-radius: 30px;
 }
