@@ -1,62 +1,42 @@
-
-
-.videoSection {
-    position: relative;
-    top: 20px;
-    display: flex;
-    flex-direction: row;
-    height: 100px;
-    padding-top: 30px;
-   
-    
-}
-
-.videoCard{
-    display: flex;
+.cont{
+    display:flex;
     flex-wrap: wrap;
-   
-    gap: 20px;
-    
+    height: 700px;
+    margin-top: 120px;
+    width: 100%;
+    left: 30px;
+   padding-left: 150px;
 
 }
-.video{
-    width: 150px;
-    height: 150px;
-    z-index: 250;
+
+
+.imag{
+    width:  300px;
+    height: 200px;
+    border-radius: 20px;
+
 }
 
 .card{
-    position: relative;
-    left: 250px;
+    padding-left: 70px;
+    padding-right: 70px;
     width: 200px;
-    height: 200px;
-    
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    justify-content: space-between;
-  
-    color: black;
-
+    height: 300px;
+    bottom: 30px;
+    background-color: transparent;
 }
 
-p1{
+.card p1{
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
     font-size: 16px;
-    color: black;
-
 }
 
-h2{
+.card h2{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
     color: black;
+    font-size: 14px;
 
 }
-
-
-
-
 
  

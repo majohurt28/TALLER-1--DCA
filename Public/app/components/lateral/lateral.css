@@ -9,6 +9,7 @@
    height: 100%;
    background-color: white;
    left: -200px;
+   margin-top: -150px;
    transition: all 500ms linear;
 }
 
@@ -28,7 +29,7 @@ left:0
 
 .logo{
     height: 30px;
-    width: 90px;
+    width: 100px;
 }
 
 #sidebar .toggle-btn {

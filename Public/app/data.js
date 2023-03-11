@@ -9,7 +9,7 @@ const data =[{
     },
 },
 {
-    thumbnail: "https://i.ytimg.com/an_webp/xKHUwfFb2lw/mqdefault_6s.webp?du=3000&sqp=CPigwJ8G&rs=AOn4CLBBdzi84B5FF1wHYQBJVX2AWTolng",
+    thumbnail: "https://i.ytimg.com/vi/8xYLW_RxEIE/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARh_ICcoFjAP&rs=AOn4CLAzrwzjIZpmuU70Qbz5IAcJWD9QyQ",
     name: "Alice In Chains - Get Born Again (Official Video)",
     profile: "Alice In Chains",
     description: {
@@ -47,7 +47,7 @@ const data =[{
 
 },
 {
-    thumbnail: 'https://i.ytimg.com/an_webp/nTJHkUze9lc/mqdefault_6s.webp?du=3000&sqp=CJmWqqAG&rs=AOn4CLA8O366MWsR4IrW8nt1jiyLWp5WhQ',
+    thumbnail: "https://i.ytimg.com/vi/MZUBpeMRWU8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBD7Mu4T99nB8ws7gXOO7a4zQr8Ow",
     name: "Pantera - Domination (2010 remaster)",
     profile: "Pantera",
     description: {
@@ -57,7 +57,7 @@ const data =[{
 
 },
 {
-    thumbnail: 'https://i.ytimg.com/an_webp/oSHzUD-uqKY/mqdefault_6s.webp?du=3000&sqp=CNi-qqAG&rs=AOn4CLDTjRSQsbMbv8tA49F0xfAeYP4wyw',
+    thumbnail: "https://i.ytimg.com/vi/SnjzT_IBZCw/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB0AaAAuADigIMCAAQARhlIE8oVTAP&rs=AOn4CLBwKqDDD-FkzNT6qqjpDIqOhwd73A",
     name: "Elley Duhé - MIDDLE OF THE NIGHT (Official Video)",
     profile: "Elley Duhé",
     description: {
@@ -68,7 +68,7 @@ const data =[{
 
 },
 {
-    thumbnail: 'https://i.ytimg.com/vi/WK7uMlbGdG0/maxresdefault.jpg',
+    thumbnail: 'https://i.ytimg.com/vi/GA131JwzKKQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAiQRRhr-uhMNqzSGo97RKk8I6SzA',
     name: "Kick it - BLACKPINK",
     profile: "BLACKPINK",
     description: {
